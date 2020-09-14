@@ -6,4 +6,5 @@
     <color name="blue">#167797</color>
     <color name="btn_backgound">#069CCE</color>
     <color name="samawy">#D4E9F4</color>
+    <color name="transparent">#00000000</color>
 </resources>

@@ -113,13 +113,14 @@ tools:context=".invinity_table">
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/strBtn"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="5"
                 android:layout_marginTop="10dp"
                 android:text="@string/str"
                 android:gravity="center_horizontal|center_vertical"
-                android:background="@drawable/circle_plus_wallpaper"
+                android:background="@drawable/white_circle_plus_wallpaper"
                 android:textSize="16sp"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
@@ -134,12 +135,13 @@ tools:context=".invinity_table">
                 android:background="@android:color/black"/>
 
             <TextView
+                android:id="@+id/sunBtn"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="5"
                 android:text="@string/sun"
                 android:gravity="center_horizontal|center_vertical"
-                android:background="@drawable/circle_plus_wallpaper"
+                android:background="@drawable/white_circle_plus_wallpaper"
                 android:textSize="16sp"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
@@ -154,12 +156,13 @@ tools:context=".invinity_table">
                 android:background="@android:color/black"/>
 
             <TextView
+                android:id="@+id/monBtn"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="5"
                 android:text="@string/mon"
                 android:gravity="center_horizontal|center_vertical"
-                android:background="@drawable/circle_plus_wallpaper"
+                android:background="@drawable/white_circle_plus_wallpaper"
                 android:textSize="16sp"
                 android:textAlignment="center"
                 android:textColor="@android:color/black" />
@@ -173,10 +176,11 @@ tools:context=".invinity_table">
                 android:background="@android:color/black"/>
 
             <TextView
+                android:id="@+id/thuBtn"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="5"
-                android:background="@drawable/circle_plus_wallpaper"
+                android:background="@drawable/white_circle_plus_wallpaper"
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/thu"
                 android:textAlignment="center"
@@ -192,12 +196,13 @@ tools:context=".invinity_table">
                 android:background="@android:color/black"/>
 
             <TextView
+                android:id="@+id/wedBtn"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="5"
                 android:text="@string/wed"
                 android:gravity="center_horizontal|center_vertical"
-                android:background="@drawable/circle_plus_wallpaper"
+                android:background="@drawable/white_circle_plus_wallpaper"
                 android:textSize="16sp"
                 android:textAlignment="center"
                 android:textColor="@android:color/black" />
@@ -211,12 +216,13 @@ tools:context=".invinity_table">
                 android:background="@android:color/black"/>
 
             <TextView
+                android:id="@+id/tueBtn"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_weight="5"
                 android:text="@string/tue"
                 android:gravity="center_horizontal|center_vertical"
-                android:background="@drawable/circle_plus_wallpaper"
+                android:background="@drawable/white_circle_plus_wallpaper"
                 android:textSize="16sp"
                 android:textAlignment="center"
                 android:layout_marginBottom="8dp"
