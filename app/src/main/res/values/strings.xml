@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">World universities</string>
+    <string name="design">Design your own time</string>
+    <string name="and">And</string>
+    <string name="more">More</string>
+    <string name="explore">Let\'s explore</string>
+    <string name="text_face_1">(｡◕‿‿◕｡)</string>
+    <string name="Choose">Choose</string>
+    <string name="your">Your</string>
+    <string name="destination">Destination</string>
+    <string name="collage_border">   Collage Border   </string>
+    <string name="uni.new"> UNI, News   </string>
+    <string name="your_time_table">"   Your Time Table   "</string>
+    <string name="collage_borderr">"   Collage Border "</string>
+    <string name="text_face_2">(づ｡◕‿‿◕｡)づ</string>
+    <string name="HALL2">Hall (2) \n الغربية</string>
+    <string name="first_lec">7:30 - 9:30</string>
+    <string name="second_lec">10:00 - 12:00</string>
+    <string name="empty">---</string>
+    <string name="str">STR</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="thu">THU</string>
+    <string name="wed">WED</string>
+</resources>
