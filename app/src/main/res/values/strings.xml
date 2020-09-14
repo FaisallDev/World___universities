@@ -23,4 +23,6 @@
     <string name="tue">TUE</string>
     <string name="thu">THU</string>
     <string name="wed">WED</string>
+    <string name="for_laps">For Laps</string>
+    <string name="plus">+</string>
 </resources>
