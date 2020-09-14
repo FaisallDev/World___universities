@@ -16,7 +16,7 @@ class StartApp : AppCompatActivity() {
         }//End time_table(BTN)
 
         collageTable.setOnClickListener{
-            val intent = Intent(this,unvinity_table::class.java)
+            val intent = Intent(this,invinity_table::class.java)
             startActivity(intent)
         }
 

@@ -6,7 +6,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
 android:paddingTop="8dp"
-tools:context=".unvinity_table">
+tools:context=".invinity_table">
 
 <!--    Here we will write hour of the lecture-->
 <LinearLayout
