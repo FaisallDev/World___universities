@@ -7,4 +7,6 @@
     <color name="btn_backgound">#069CCE</color>
     <color name="samawy">#D4E9F4</color>
     <color name="transparent">#00000000</color>
+    <color name="plus_button">#51c4ff</color>
+    <color name="days_clickable">#51c4ff</color>
 </resources>
