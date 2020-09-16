@@ -26,4 +26,6 @@
     <string name="for_laps">For Laps</string>
     <string name="plus">+</string>
     <string name="off">Off</string>
+    <string name="third_lec">12:30 - 2:30</string>
+    <string name="fourth_lec">2:30 - 4:30</string>
 </resources>

@@ -251,7 +251,7 @@ tools:context=".invinity_table">
 
     </LinearLayout>
 
-
+<!--    Start table view-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
