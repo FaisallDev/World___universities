@@ -1,9 +1,446 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".invinity_table">
+    android:background="@color/backgroundAboutGreen"
+    android:layout_height="match_parent">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/borderColor"
+        android:layout_marginTop="6dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--   Start scroll for days-->  <!--هنا بس عشان الايام -->
+    <HorizontalScrollView
+        android:scrollbarThumbVertical="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+ >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/days_background_corner"
+            android:text="@string/thu"
+            android:layout_margin="3dp"
+            android:textColor="@color/borderColor"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/borderColor"
+            android:layout_marginTop="@dimen/marginLineBetweenDaysTopVertical"
+            android:layout_marginBottom="@dimen/marginLineBetweenDaysBottomVertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/days_background_corner"
+            android:text="@string/wed"
+            android:layout_margin="3dp"
+            android:textColor="@color/borderColor"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/borderColor"
+            android:layout_marginTop="@dimen/marginLineBetweenDaysTopVertical"
+            android:layout_marginBottom="@dimen/marginLineBetweenDaysBottomVertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/days_background_corner"
+            android:text="@string/tue"
+            android:layout_margin="3dp"
+            android:textColor="@color/borderColor"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/borderColor"
+            android:layout_marginTop="@dimen/marginLineBetweenDaysTopVertical"
+            android:layout_marginBottom="@dimen/marginLineBetweenDaysBottomVertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/days_background_corner"
+            android:text="@string/mon"
+            android:layout_margin="3dp"
+            android:textColor="@color/borderColor"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/borderColor"
+            android:layout_marginTop="@dimen/marginLineBetweenDaysTopVertical"
+            android:layout_marginBottom="@dimen/marginLineBetweenDaysBottomVertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/days_background_corner"
+            android:text="@string/sun"
+            android:layout_margin="3dp"
+            android:textColor="@color/borderColor"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/borderColor"
+            android:layout_marginTop="@dimen/marginLineBetweenDaysTopVertical"
+            android:layout_marginBottom="@dimen/marginLineBetweenDaysBottomVertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/days_background_corner"
+            android:text="@string/sat"
+            android:layout_margin="3dp"
+            android:textColor="@color/borderColor"/>
+
+
+        
+    </LinearLayout>
+    </HorizontalScrollView>
+<!--    End scroll for days-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/borderColor" />
+    <!--هنا نهايه الايام-->
+
+    <!--Start time table for lectures--> <!--بدايه الجدول حق المواقيت من هنا-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/border">
+
+        <!--بدايه اللينر هنا عشان اللون الابيض فقط لا اكثر-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_background_for_tables"
+            android:layout_margin="1dp">
+
+            <!--بدايه الحقول بداخل الجدول (المواقيت)-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/first_lec"
+                style="@style/lecs_time_middle_Vertical"
+                android:layout_weight="25"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/second_lec"
+                style="@style/lecs_time_middle_Vertical"
+                android:layout_weight="25"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/third_lec"
+                style="@style/lecs_time_middle_Vertical"
+                android:layout_weight="25"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fourth_lec"
+                style="@style/lecs_time_middle_Vertical"
+                android:layout_weight="25"/>
+
+            <!--نهايه الحقول بداخل الجدول (المواقيت)-->
+
+        </LinearLayout>
+        <!--نهايه اللينر هنا عشان اللون الابيض فقط لا اكثر ..-->
+    </LinearLayout>
+    <!--End time table for lectures-->
+
+    <!--Start table for lectures -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/border">
+
+        <!--Start white background for lectures table-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/white_background_for_tables"
+            android:layout_margin="1dp">
+
+            <!--Start First Row for halls lecture table-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_weight="33">
+                <!--Start inside lecture table-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Hall (2)"
+                    style="@style/first_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Hall (2)"
+                    style="@style/first_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Off"
+                    style="@style/first_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/off"
+                    style="@style/first_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+                <!--End inside lectures table-->
+            </LinearLayout>
+            <!--End First Row for lecture table-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+
+            <!--Start Second Row for teachers lecture table-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_weight="33">
+                <!--Start inside teachers lecture row-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tag Eldeen"
+                    style="@style/second_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Waled"
+                    style="@style/second_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="No-One"
+                    style="@style/second_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    style="@style/second_row_of_table_Vertical"
+                    android:text="No-One" />
+                <!--End inside teachers lecture row-->
+            </LinearLayout>
+            <!--End Second Row for lecture table-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+
+            <!--Start Third Row for subjects lecture table-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="33">
+                <!--Start inside lecture table-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    style="@style/third_row_of_table_Vertical"
+                    android:text="Databases II" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Visual programming"
+                    style="@style/third_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/text_face_2"
+                    style="@style/third_row_of_table_Vertical"
+                    android:layout_weight="25"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    style="@style/third_row_of_table_Vertical"
+                    android:text="@string/text_face_2" />
+                <!--End inside lectures table-->
+            </LinearLayout>
+            <!--End Third Row for lecture table-->
+
+
+
+        </LinearLayout>
+        <!--End white background for lectures table-->
+
+    </LinearLayout>
+    <!--End  table for lectures-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/ForLaps"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:background="@drawable/border_smawy_wallpaper"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp">
+
+            <Switch
+                android:id="@+id/SwitchLapsTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/for_laps"
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/CustomTableBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_plus_wallpaper"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/plus"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="24sp"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

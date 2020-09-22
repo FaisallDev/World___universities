@@ -2,5 +2,7 @@
 <resources>
 
     <dimen name="TextSize">20sp</dimen>
+    <dimen name="marginLineBetweenDaysTopVertical">3dp</dimen>
+    <dimen name="marginLineBetweenDaysBottomVertical">3dp</dimen>
 
 </resources>
