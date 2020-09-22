@@ -17,7 +17,7 @@
     <style name="lecs_time_middle_Vertical">
         <item name="android:textAlignment">center</item>
         <item name="android:gravity">center_horizontal|center_vertical</item>
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@color/borderColor</item>
         <item name="android:textSize">16sp</item>
     </style>
 
