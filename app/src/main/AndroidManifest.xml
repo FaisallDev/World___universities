@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".invinity_table"/>
+        <activity android:name=".marks_bord"></activity>
+        <activity android:name=".invinity_table" />
         <activity android:name=".table" />
         <activity android:name=".StartApp" />
         <activity android:name=".MainActivity">
