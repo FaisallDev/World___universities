@@ -4,8 +4,9 @@
     <dimen name="TextSize">20sp</dimen>
     <dimen name="marginLineBetweenDaysTopVertical">3dp</dimen>
     <dimen name="marginLineBetweenDaysBottomVertical">3dp</dimen>
-    <dimen name="techerNamesSize">15sp</dimen>
+    <dimen name="teacherNamesSize">15sp</dimen>
     <dimen name="hallNamesSize">20sp</dimen>
     <dimen name="subjectNamesSize">17sp</dimen>
+    <dimen name="id_loginTextSise">25sp</dimen>
 
 </resources>

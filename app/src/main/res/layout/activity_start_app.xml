@@ -43,6 +43,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+
     <Button
         android:id="@+id/time_table"
         style="@style/btn_text_style"
@@ -53,6 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:ignore="MissingConstraints" />
+
 
     <Button
         android:id="@+id/collageTable"

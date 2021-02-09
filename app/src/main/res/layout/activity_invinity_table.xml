@@ -292,7 +292,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tag Eldeen"
-                    android:textSize="@dimen/techerNamesSize"
+                    android:textSize="@dimen/teacherNamesSize"
                     style="@style/second_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -305,7 +305,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Waled"
-                    android:textSize="@dimen/techerNamesSize"
+                    android:textSize="@dimen/teacherNamesSize"
                     style="@style/second_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -318,7 +318,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="No-One"
-                    android:textSize="@dimen/techerNamesSize"
+                    android:textSize="@dimen/teacherNamesSize"
                     style="@style/second_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -333,7 +333,7 @@
                     android:layout_weight="25"
                     style="@style/second_row_of_table_Vertical"
                     android:text="No-One"
-                    android:textSize="@dimen/techerNamesSize" />
+                    android:textSize="@dimen/teacherNamesSize" />
                 <!--End inside teachers lecture row-->
             </LinearLayout>
             <!--End Second Row for lecture table-->

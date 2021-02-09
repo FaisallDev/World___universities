@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start_app_ID_login"
+    android:background="@color/backgroundAboutGreen">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center||center_horizontal||center_vertical"
+        android:textColor="@color/greenText"
+        android:textSize="@dimen/id_loginTextSise"
+        android:text="@string/LoginMessage"/>
+
+
+</LinearLayout>
