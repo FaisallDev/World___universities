@@ -1,20 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Start_app_ID_login"
-    android:background="@color/backgroundAboutGreen">
+    android:background="@color/backgroundAboutGreen"
+    android:orientation="vertical">
 
     <TextView
         android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center||center_horizontal||center_vertical"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
         android:textColor="@color/greenText"
-        android:textSize="@dimen/id_loginTextSise"
+        android:textSize="@dimen/id_loginTextSize"
         android:text="@string/LoginMessage"/>
 
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/FramEditTextID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_black"
+        android:layout_centerInParent="true">
+
+    <EditText
+        android:layout_margin="1dp"
+        android:id="@+id/EditTextID"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:hint="@string/enter_your_id_Hint"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:background="@drawable/et_radius"
+        android:autofillHints=""
+        android:inputType="number" />
+    </FrameLayout>
+
+
+<TextView
+    android:id="@+id/errorMessageForID"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="الرجاء \nإدخال رقم جامعي صحيح"
+    android:textColor="@color/errorMessage"
+    android:textSize="20sp"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@id/FramEditTextID"
+    android:layout_marginEnd="50dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/errorMessageForID"
+        android:background="@drawable/border_black"
+        android:layout_marginTop="35dp">
+    <Button
+        android:id="@+id/idBtn"
+        android:layout_margin="1dp"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:background="@drawable/corner_normal"
+        android:text="Start"
+        android:textSize="25sp"
+        android:textColor="@android:color/white" />
+    </FrameLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/text_face_1"
+    android:textSize="45sp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:textAlignment="center"
+    android:textColor="@color/greenText"
+    android:layout_marginBottom="30dp"/>
+
+
+
+
+</RelativeLayout>

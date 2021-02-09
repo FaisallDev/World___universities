@@ -29,4 +29,5 @@
     <string name="third_lec">12:30 - 2:30</string>
     <string name="fourth_lec">2:30 - 4:30</string>
     <string name="LoginMessage">Design your own time \n\nand more ~></string>
+    <string name="enter_your_id_Hint">Student-ID</string>
 </resources>

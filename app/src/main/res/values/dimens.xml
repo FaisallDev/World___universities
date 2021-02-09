@@ -7,6 +7,6 @@
     <dimen name="teacherNamesSize">15sp</dimen>
     <dimen name="hallNamesSize">20sp</dimen>
     <dimen name="subjectNamesSize">17sp</dimen>
-    <dimen name="id_loginTextSise">25sp</dimen>
+    <dimen name="id_loginTextSize">25sp</dimen>
 
 </resources>

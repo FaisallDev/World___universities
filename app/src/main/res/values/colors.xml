@@ -12,6 +12,8 @@
     <color name="days_clickable">#51c4ff</color>
     <color name="borderColor">#707070</color>
     <color name="greenText">#2D9E9A</color>
+    <color name="errorMessage">#FF0000</color>
+    <color name="transBlack">#90000000</color>
 
 
 
