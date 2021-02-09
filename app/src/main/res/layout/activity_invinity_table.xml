@@ -134,8 +134,8 @@
     <!--Start time table for lectures--> <!--بدايه الجدول حق المواقيت من هنا-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
@@ -220,13 +220,14 @@
             <!--Start First Row for halls lecture table-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="180dp"
                 android:layout_weight="33">
                 <!--Start inside lecture table-->
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Hall (2)"
+                    android:textSize="@dimen/hallNamesSize"
                     style="@style/first_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -239,6 +240,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Hall (2)"
+                    android:textSize="@dimen/hallNamesSize"
                     style="@style/first_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -251,6 +253,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Off"
+                    android:textSize="@dimen/hallNamesSize"
                     style="@style/first_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -263,6 +266,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/off"
+                    android:textSize="@dimen/hallNamesSize"
                     style="@style/first_row_of_table_Vertical"
                     android:layout_weight="25"/>
                 <!--End inside lectures table-->
@@ -288,6 +292,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Tag Eldeen"
+                    android:textSize="@dimen/techerNamesSize"
                     style="@style/second_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -300,6 +305,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Waled"
+                    android:textSize="@dimen/techerNamesSize"
                     style="@style/second_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -312,6 +318,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="No-One"
+                    android:textSize="@dimen/techerNamesSize"
                     style="@style/second_row_of_table_Vertical"
                     android:layout_weight="25"/>
 
@@ -325,7 +332,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="25"
                     style="@style/second_row_of_table_Vertical"
-                    android:text="No-One" />
+                    android:text="No-One"
+                    android:textSize="@dimen/techerNamesSize" />
                 <!--End inside teachers lecture row-->
             </LinearLayout>
             <!--End Second Row for lecture table-->
@@ -351,7 +359,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="25"
                     style="@style/third_row_of_table_Vertical"
-                    android:text="Databases II" />
+                    android:text="Databases II"
+                    android:textSize="@dimen/subjectNamesSize" />
 
                 <View
                     android:layout_width="1dp"
@@ -363,7 +372,8 @@
                     android:layout_height="match_parent"
                     android:text="Visual programming"
                     style="@style/third_row_of_table_Vertical"
-                    android:layout_weight="25"/>
+                    android:layout_weight="25"
+                    android:textSize="@dimen/subjectNamesSize"/>
 
                 <View
                     android:layout_width="1dp"
@@ -375,7 +385,8 @@
                     android:layout_height="match_parent"
                     android:text="@string/text_face_2"
                     style="@style/third_row_of_table_Vertical"
-                    android:layout_weight="25"/>
+                    android:layout_weight="25"
+                    android:textSize="@dimen/subjectNamesSize"/>
 
                 <View
                     android:layout_width="1dp"
@@ -387,7 +398,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="25"
                     style="@style/third_row_of_table_Vertical"
-                    android:text="@string/text_face_2" />
+                    android:text="@string/text_face_2"
+                    android:textSize="@dimen/subjectNamesSize" />
                 <!--End inside lectures table-->
             </LinearLayout>
             <!--End Third Row for lecture table-->
