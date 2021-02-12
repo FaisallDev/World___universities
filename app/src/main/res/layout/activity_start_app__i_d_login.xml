@@ -16,6 +16,7 @@
         >
 
         <ahmed.jaafuar.faisal.worlduniversities.Gabriola_Font
+            android:layout_marginTop="40dp"
             android:layout_centerInParent="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/FramEditTextID"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="47dp"
             android:text="الرجاء \nإدخال رقم جامعي صحيح"
             android:textColor="@color/errorMessage"
@@ -75,7 +76,12 @@
         android:layout_height="match_parent"
         android:layout_weight="0.43">
 
-
+        <FrameLayout
+            android:id="@+id/frameBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_black"
+            android:layout_centerInParent="true">
             <Button
                 android:layout_centerInParent="true"
                 android:id="@+id/idBtn"
@@ -86,7 +92,7 @@
                 android:text="Start"
                 android:textSize="25sp"
                 android:textColor="@android:color/white" />
-
+        </FrameLayout>
     </RelativeLayout>
 
     <RelativeLayout
