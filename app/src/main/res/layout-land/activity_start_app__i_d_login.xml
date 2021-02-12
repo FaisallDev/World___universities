@@ -22,7 +22,7 @@
             android:textAlignment="center"
             android:textColor="@color/greenText"
             android:textSize="@dimen/id_loginTextSize"
-            android:text="@string/LoginMessage"
+            android:text="@string/LoginMessage_LandScape"
             tools:ignore="RtlCompat" />
 
     </RelativeLayout>
@@ -31,7 +31,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.33"
+        android:layout_weight="0.44"
         >
         <FrameLayout
             android:id="@+id/FramEditTextID"
@@ -56,16 +56,14 @@
 
         <TextView
             android:id="@+id/errorMessageForID"
+            android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/FramEditTextID"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="47dp"
             android:text="الرجاء \nإدخال رقم جامعي صحيح"
             android:textColor="@color/errorMessage"
             android:textSize="20sp"
-            android:visibility="invisible" />
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"/>
 
     </RelativeLayout>
 
@@ -73,7 +71,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.43">
+        android:layout_weight="0.43"
+        android:layout_marginTop="7dp">
 
 
             <Button
@@ -99,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/text_face_1"
-            android:textSize="45sp"
+            android:textSize="40sp"
             android:layout_centerVertical="true"
             android:textAlignment="center"
             android:textColor="@color/greenText"

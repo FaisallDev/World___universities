@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import ahmed.jaafuar.faisal.worlduniversities.R
 import android.content.Intent
+import android.graphics.Typeface
 import android.view.View
 import androidx.core.view.isVisible
 import kotlinx.android.synthetic.main.activity_start_app__i_d_login.*
@@ -27,6 +28,11 @@ class Start_app_ID_login : AppCompatActivity() {
                 errorMessageForID.visibility = View.VISIBLE
            }//End else
         }//End OnClickListener()
+
+        idBtn.typeface = Typeface.createFromAsset(assets,"calibri.TTF")
+        EditTextID.typeface = Typeface.createFromAsset(assets,"FranklinGothicBookRegular.ttf")
+        errorMessageForID.typeface = Typeface.createFromAsset(assets,"CALIST.ttf")
+
 
     } //End onCreate()
 
