@@ -11,14 +11,14 @@ class StartApp : AppCompatActivity() {
         setContentView(R.layout.activity_start_app)
 
         time_table.setOnClickListener {
-           val intent = Intent(this,table::class.java)
+           val intent = Intent(this,invinity_table::class.java)
             startActivity(intent)
         }//End time_table(BTN)
-
-        collageTable.setOnClickListener{
-            val intent = Intent(this,invinity_table::class.java)
-            startActivity(intent)
-        }
+//
+//        collageTable.setOnClickListener{
+//            val intent = Intent(this,invinity_table::class.java)
+//            startActivity(intent)
+//        }
 
     }//End onCreate()
 
