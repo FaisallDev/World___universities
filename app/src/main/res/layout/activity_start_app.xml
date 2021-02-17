@@ -55,9 +55,11 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.33">
+        android:layout_weight="0.33"
+        android:layout_marginTop="20dp">
 
         <FrameLayout
+            android:id="@+id/frameFirstBtn"
             android:layout_marginTop="20dp"
             android:layout_width="267dp"
             android:layout_height="wrap_content"
@@ -66,7 +68,7 @@
         <Button
             android:id="@+id/time_table"
             android:layout_margin="1dp"
-            android:layout_width="267dp"
+            android:layout_width="265dp"
             android:layout_height="wrap_content"
             android:background="@drawable/corner_from_right"
             android:text="@string/your_time_table"
@@ -75,6 +77,51 @@
             android:paddingStart="20dp"
             android:textColor="@color/textColorBtnPages"/>
         </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/secondFramBtn"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frameFirstBtn"
+            android:background="@drawable/corner_from_right_black">
+
+            <Button
+                android:id="@+id/Faculty_Border"
+                android:layout_width="215dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@drawable/corner_from_right"
+                android:paddingStart="20dp"
+                android:text="@string/faculty_border"
+                android:textAlignment="textStart"
+                android:textColor="@color/textColorBtnPages"
+                android:textSize="20sp"
+                tools:ignore="RtlSymmetry" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/thirdFramBtn"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondFramBtn"
+            android:background="@drawable/corner_from_right_black">
+
+            <Button
+                android:id="@+id/UNi_news"
+                android:layout_width="178dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@drawable/corner_from_right"
+                android:text="@string/uni_news"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:paddingStart="20dp"
+                android:textColor="@color/textColorBtnPages"
+                tools:ignore="RtlSymmetry" />
+
+        </FrameLayout>
+
 
 
     </RelativeLayout>
@@ -88,6 +135,26 @@
         android:layout_height="match_parent"
         android:layout_weight="0.4">
 
+        <TextView
+            android:id="@+id/face2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/text_face_2"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/greenText"
+            android:textSize="50sp"/>
+
+        <ahmed.jaafuar.faisal.worlduniversities.lucida_handwriting
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/sh3ar"
+            android:textAlignment="center"
+            android:textColor="@color/sh3ar"
+            android:textSize="40sp"
+            android:layout_above="@id/face2"/>
     </RelativeLayout>
     <!--    End Last part For Emojy-->
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">World universities</string>
+    <string name="app_name">Time--></string>
     <string name="design">Design your own time</string>
     <string name="and">And</string>
     <string name="more">More</string>
@@ -10,7 +10,7 @@
     <string name="destination">Destination</string>
     <string name="collage_border">   Collage Border   </string>
     <string name="uni.new"> UNI, News   </string>
-    <string name="your_time_table">"   Your Time Table   "</string>
+    <string name="your_time_table">Your Time Table</string>
     <string name="collage_borderr">"   Collage Border "</string>
     <string name="text_face_2">(づ｡◕‿‿◕｡)づ</string>
     <string name="HALL2">Hall (2) \n الغربية</string>
@@ -31,4 +31,8 @@
     <string name="LoginMessage">Design your own time \n\nand more ~></string>
     <string name="enter_your_id_Hint">Student - ID</string>
     <string name="LoginMessage_LandScape"><![CDATA[Design your own time \n and more ~>]]></string>
+    <string name="faculty_border">Faculty Border</string>
+    <string name="uni_news">UNi,news</string>
+    <string name="sh3ar"><![CDATA[Time--> T]]></string>
+
 </resources>
