@@ -153,11 +153,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:background="@drawable/third_corner_all_ways"
+                android:paddingStart="20dp"
                 android:text="@string/uni_news"
                 android:textAlignment="textStart"
-                android:textSize="23sp"
-                android:paddingStart="20dp"
                 android:textColor="@color/textColorBtnPages"
+                android:textSize="23sp"
                 tools:ignore="RtlSymmetry" />
 
         </FrameLayout>

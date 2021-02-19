@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_start_app.*
 
 class StartApp : AppCompatActivity() {
@@ -19,11 +20,14 @@ class StartApp : AppCompatActivity() {
            val intent = Intent(this,invinity_table::class.java)
             startActivity(intent)
         }//End time_table(BTN)
-//
-//        collageTable.setOnClickListener{
-//            val intent = Intent(this,invinity_table::class.java)
-//            startActivity(intent)
-//        }
+
+        Faculty_Border.setOnClickListener{
+            Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show()
+        }//End Faculty_BorderButton
+
+        UNi_news.setOnClickListener{
+            Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show()
+        }//End UNi_news Button
 
     }//End onCreate()
 
