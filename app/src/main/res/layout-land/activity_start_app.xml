@@ -8,35 +8,51 @@
     tools:context=".StartApp">
 
 <!--  Start  Three Words Above (Header)-->
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.4">
+        android:orientation="horizontal"
+        android:layout_weight="0.5">
 
-        <ahmed.jaafuar.faisal.worlduniversities.Gabriola_Font
-            android:id="@+id/chooseText"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="choose"
-            android:layout_centerVertical="true"
-            android:textStyle="bold"
-            android:layout_marginStart="30dp"
-            android:textColor="@color/greenText"
-            android:textSize="@dimen/choodeURdes"
-            />
+            android:layout_height="match_parent"
+            android:layout_weight="0.3">
+
+            <ahmed.jaafuar.faisal.worlduniversities.Gabriola_Font
+                android:id="@+id/chooseText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingStart="70dp"
+                android:text="choose"
+                android:textColor="@color/greenText"
+                android:textSize="@dimen/choodeURdes"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <ahmed.jaafuar.faisal.worlduniversities.Gabriola_Font
             android:id="@+id/yourText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="your"
-            android:paddingEnd="90dp"
             android:textColor="@color/greenText"
             android:textSize="@dimen/choodeURdes"
             android:textStyle="bold"
             android:layout_centerInParent="true"
             android:textAlignment="center"
             />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <ahmed.jaafuar.faisal.worlduniversities.Gabriola_Font
             android:id="@+id/destinationText"
@@ -46,53 +62,68 @@
             android:textColor="@color/greenText"
             android:textSize="@dimen/choodeURdes"
             android:textStyle="bold"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="30dp"
+            android:layout_centerInParent="true"
+            android:paddingEnd="40dp"
             android:textAlignment="textEnd"
-            />
-    </RelativeLayout>
+            tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+    </LinearLayout>
     <!--   End Three Words Above (Header)-->
 
 
 <!--    Start Middle Buttons -->
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.33"
+        android:layout_weight="0.55"
+        android:orientation="horizontal"
         android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <FrameLayout
             android:id="@+id/frameFirstBtn"
-            android:layout_width="267dp"
+            android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@drawable/corner_from_right_black">
+            android:layout_marginStart="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/first_corner_all_ways_black">
 
         <Button
             android:id="@+id/time_table"
             android:layout_margin="1dp"
-            android:layout_width="265dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/first_corner_btn_right"
+            android:background="@drawable/fisrt_corner_all_ways"
             android:text="@string/your_time_table"
-            android:textAlignment="textStart"
+            android:textAlignment="center"
             android:textSize="23sp"
-            android:paddingStart="20dp"
             android:textColor="@color/textColorBtnPages"/>
         </FrameLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_weight="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <FrameLayout
             android:id="@+id/secondFramBtn"
             android:layout_width="217dp"
             android:layout_height="60dp"
-            android:layout_below="@id/frameFirstBtn"
-            android:background="@drawable/corner_from_right_black">
+            android:layout_centerInParent="true"
+            android:background="@drawable/second_frame_corner_all_ways_black">
 
             <Button
                 android:id="@+id/Faculty_Border"
                 android:layout_width="215dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:background="@drawable/second_corner_btn_right"
+                android:background="@drawable/second_corner_all_ways"
                 android:paddingStart="20dp"
                 android:text="@string/faculty_border"
                 android:textAlignment="textStart"
@@ -101,20 +132,27 @@
                 tools:ignore="RtlSymmetry" />
 
         </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.333"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
 
         <FrameLayout
             android:id="@+id/thirdFramBtn"
             android:layout_width="180dp"
             android:layout_height="60dp"
-            android:layout_below="@+id/secondFramBtn"
-            android:background="@drawable/corner_from_right_black">
+            android:layout_centerInParent="true"
+            android:background="@drawable/third_frame_corner_all_ways_black">
 
             <Button
                 android:id="@+id/UNi_news"
                 android:layout_width="178dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:background="@drawable/third_corner_btn_right"
+                android:background="@drawable/third_corner_all_ways"
                 android:text="@string/uni_news"
                 android:textAlignment="textStart"
                 android:textSize="23sp"
@@ -124,9 +162,9 @@
 
         </FrameLayout>
 
+        </RelativeLayout>
 
-
-    </RelativeLayout>
+    </LinearLayout>
     <!--    End Middle Buttons -->
 
 
@@ -141,21 +179,21 @@
             android:id="@+id/face2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
             android:text="@string/text_face_2"
             android:textAlignment="center"
             android:gravity="center"
             android:textColor="@color/greenText"
-            android:textSize="50sp"/>
+            android:textSize="40sp"/>
 
         <ahmed.jaafuar.faisal.worlduniversities.lucida_handwriting
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
             android:text="@string/sh3ar"
             android:textAlignment="center"
             android:textColor="@color/sh3ar"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_above="@id/face2"/>
     </RelativeLayout>
     <!--    End Last part For Emojy-->
