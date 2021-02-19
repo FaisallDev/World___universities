@@ -4,6 +4,6 @@
     <corners android:bottomRightRadius="10dp"
         android:topRightRadius="10dp"/>
 
-    <solid android:color="@color/btn_backgound"/>
+    <solid android:color="#00B0FF"/>
 
 </shape>
