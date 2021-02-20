@@ -18,22 +18,24 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.3">
+            android:layout_weight="10"
+            tools:ignore="NestedWeights">
 
             <ahmed.jaafuar.faisal.worlduniversities.Gabriola_Font
                 android:id="@+id/chooseText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:paddingStart="70dp"
+                android:paddingStart="150dp"
                 android:text="choose"
                 android:textColor="@color/greenText"
+                android:textAlignment="center"
                 android:textSize="@dimen/choodeURdes"
                 android:textStyle="bold" />
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_weight="0.5"
+            android:layout_weight="12"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -51,7 +53,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_weight="0.3"
+            android:layout_weight="10"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -65,7 +67,7 @@
             android:textStyle="bold"
             android:layout_centerInParent="true"
             android:paddingEnd="40dp"
-            android:textAlignment="textEnd"
+            android:textAlignment="textStart"
             tools:ignore="RtlSymmetry" />
         </RelativeLayout>
     </LinearLayout>
@@ -81,7 +83,7 @@
         android:layout_marginTop="20dp">
 
         <RelativeLayout
-            android:layout_weight="0.3"
+            android:layout_weight="95"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -89,8 +91,8 @@
             android:id="@+id/frameFirstBtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
             android:layout_marginStart="20dp"
-            android:layout_centerInParent="true"
             android:background="@drawable/first_corner_all_ways_black">
 
         <Button
@@ -108,20 +110,20 @@
 
 
         <RelativeLayout
-            android:layout_weight="0.3"
+            android:layout_weight="90"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
         <FrameLayout
             android:id="@+id/secondFramBtn"
-            android:layout_width="217dp"
+            android:layout_width="220dp"
             android:layout_height="60dp"
             android:layout_centerInParent="true"
             android:background="@drawable/second_frame_corner_all_ways_black">
 
             <Button
                 android:id="@+id/Faculty_Border"
-                android:layout_width="215dp"
+                android:layout_width="218dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:background="@drawable/second_corner_all_ways"
@@ -136,7 +138,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:layout_weight="0.333"
+            android:layout_weight="95"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -145,7 +147,7 @@
             android:id="@+id/thirdFramBtn"
             android:layout_width="180dp"
             android:layout_height="60dp"
-            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
             android:background="@drawable/third_frame_corner_all_ways_black">
 
             <Button

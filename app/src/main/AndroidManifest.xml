@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Start_app_ID_login"></activity>
+        <activity android:name=".college_border"></activity>
+        <activity android:name=".Start_app_ID_login" />
         <activity android:name=".marks_bord" />
         <activity android:name=".invinity_table" />
         <activity android:name=".table" />
