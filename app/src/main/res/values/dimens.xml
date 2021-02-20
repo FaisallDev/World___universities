@@ -9,5 +9,5 @@
     <dimen name="subjectNamesSize">17sp</dimen>
     <dimen name="id_loginTextSize">50sp</dimen>
     <dimen name="choodeURdes">50sp</dimen>
-
+    <dimen name="trakmy">20sp</dimen>
 </resources>

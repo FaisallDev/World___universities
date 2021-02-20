@@ -74,8 +74,95 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="100">
+        android:layout_weight="110">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:textSize="@dimen/trakmy"
+                android:gravity="center"
+                android:text="2.25"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/borderColor" />
+
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:textSize="@dimen/trakmy"
+                android:gravity="center"
+                android:text="46"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/borderColor" />
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:textSize="@dimen/trakmy"
+                android:gravity="center"
+                android:text="2.25"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/borderColor" />
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:textSize="@dimen/trakmy"
+                android:gravity="center"
+                android:text="49.50"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/borderColor" />
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:textSize="@dimen/trakmy"
+                android:gravity="center"
+                android:text="22"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/borderColor" />
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:textSize="@dimen/trakmy"
+                android:gravity="center"
+                android:text="pass"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 <!--    نهاية القسم الثالث و الاخير عدد الساعات والتخطي-->
