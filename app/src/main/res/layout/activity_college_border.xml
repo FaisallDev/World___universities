@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundAboutGreen"
     tools:context=".college_border">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--   بداية أول قسم للـ اي دي والاسم -->
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:layout_margin="3dp"
+            android:orientation="horizontal">
+
+            
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="190"
+                android:text="000000"
+                android:textColor="@color/borderColor"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/borderColor" />
+
+
+
+            <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:text="Student - name"
+                android:textSize="25sp"
+                android:textColor="@color/borderColor"
+                android:textAlignment="center"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+        <!--    نهاية أول قسم للـ اي دي والاسم -->
+    </LinearLayout>
+
+
+    <!--        بداية ثاني قسم للمواد والدرجه-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+
+
+    </LinearLayout>
+<!--    نهاية ثاني قسم للمواد والدرجه-->
+
+
+<!--    بدايه القسم الثالث و الاخير عدد الساعات والتخطي -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+
+    </LinearLayout>
+<!--    نهاية القسم الثالث و الاخير عدد الساعات والتخطي-->
+
+</LinearLayout>
