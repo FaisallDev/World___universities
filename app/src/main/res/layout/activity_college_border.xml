@@ -11,6 +11,8 @@
 <!--   بداية أول قسم للـ اي دي والاسم -->
     <LinearLayout
         android:layout_marginTop="16dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="100">
@@ -18,8 +20,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/background_white_table">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@drawable/border"
-            android:layout_margin="3dp"
             android:orientation="horizontal">
 
             
@@ -55,6 +61,8 @@
 
         </LinearLayout>
 
+
+        </LinearLayout>
         <!--    نهاية أول قسم للـ اي دي والاسم -->
     </LinearLayout>
 
@@ -65,6 +73,40 @@
         android:layout_height="match_parent"
         android:layout_weight="30">
 
+        <!--بداية القسم الايسر-->
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:layout_weight="45"
+            tools:ignore="NestedWeights">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="45">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100">
+
+            </LinearLayout>
+
+            <!--نهايه القسم الايسر-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:layout_weight="100">
+
+        </LinearLayout>
 
     </LinearLayout>
 <!--    نهاية ثاني قسم للمواد والدرجه-->
@@ -82,6 +124,13 @@
             android:background="@drawable/border"
             android:layout_margin="3dp"
             android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_white_table"
+                android:layout_margin="1dp"
+                android:orientation="horizontal">
 
             <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
                 android:layout_width="match_parent"
@@ -162,6 +211,7 @@
                 android:gravity="center"
                 android:text="pass"/>
 
+            </LinearLayout>  <!--End white Background-->
 
         </LinearLayout>
 
