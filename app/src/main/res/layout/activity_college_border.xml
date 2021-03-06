@@ -28,17 +28,16 @@
             android:background="@drawable/border"
             android:orientation="horizontal">
 
-            
 
             <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="190"
+                android:gravity="center"
                 android:text="000000"
-                android:textColor="@color/borderColor"
                 android:textAlignment="center"
-                android:textSize="25sp"
-                android:gravity="center"/>
+                android:textColor="@color/borderColor"
+                android:textSize="25sp" />
 
             <View
                 android:layout_width="3dp"
@@ -47,16 +46,15 @@
                 android:background="@color/borderColor" />
 
 
-
             <ahmed.jaafuar.faisal.worlduniversities.Calibri_font
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="100"
+                android:gravity="center"
                 android:text="Student - name"
-                android:textSize="25sp"
-                android:textColor="@color/borderColor"
                 android:textAlignment="center"
-                android:gravity="center"/>
+                android:textColor="@color/borderColor"
+                android:textSize="25sp" />
 
 
         </LinearLayout>
@@ -74,29 +72,70 @@
         android:layout_weight="30">
 
         <!--بداية القسم الايسر-->
+
         <LinearLayout
+            android:orientation="vertical"
             android:layout_margin="3dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/border"
             android:layout_weight="45"
             tools:ignore="NestedWeights">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="45">
+                android:background="@drawable/background_white_table"
+                android:layout_margin="0.9dp">
 
-            </LinearLayout>
+            <!--subject table start from here-->
 
-            <LinearLayout
+                <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="100">
+                android:layout_weight="100"
+                android:orientation="vertical">
 
-            </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="700"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="100"
+                            android:text="subject's"
+                            android:gravity="center"
+                            android:textAlignment="center"/>
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/borderColor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="220"
+                            android:gravity="center"
+                            android:text="C.H"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="100"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
 
             <!--نهايه القسم الايسر-->
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -105,6 +144,18 @@
             android:layout_height="match_parent"
             android:background="@drawable/border"
             android:layout_weight="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_white_table"
+                android:layout_margin="0.9dp" >
+
+
+                <!--Write here-->
+
+            </LinearLayout>
+
 
         </LinearLayout>
 
