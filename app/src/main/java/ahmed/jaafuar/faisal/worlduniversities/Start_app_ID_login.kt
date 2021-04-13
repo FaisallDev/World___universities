@@ -18,20 +18,19 @@ class Start_app_ID_login : AppCompatActivity() {
         idBtn.setOnClickListener {
            if (EditTextID.text.toString() == "000000" ) {
                val i = Intent (this,StartApp::class.java)
-               errorMessageForID.visibility = View.INVISIBLE
                    startActivity(i)
            }//End if
-            else if (EditTextID.text.toString() == "") {
-             errorMessageForID.visibility = View.VISIBLE
+           else if (EditTextID.text.isEmpty()) {
+               EditTextID.error="قم بكتابة رقم جامعي قبل الدخول"
            }//End else if
             else {
-                errorMessageForID.visibility = View.VISIBLE
+               EditTextID.error="أدخل رقم جامعي صحيح"
            }//End else
         }//End OnClickListener()
 
         idBtn.typeface = Typeface.createFromAsset(assets,"calibri.TTF")
         EditTextID.typeface = Typeface.createFromAsset(assets,"FranklinGothicBookRegular.ttf")
-        errorMessageForID.typeface = Typeface.createFromAsset(assets,"CALIST.ttf")
+
 
 
     } //End onCreate()

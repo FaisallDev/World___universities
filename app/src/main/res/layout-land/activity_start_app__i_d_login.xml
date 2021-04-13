@@ -54,18 +54,6 @@
         </FrameLayout>
 
 
-        <TextView
-            android:id="@+id/errorMessageForID"
-            android:visibility="invisible"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="الرجاء \nإدخال رقم جامعي صحيح"
-            android:textColor="@color/errorMessage"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"
-            android:textAlignment="center"
-            android:layout_toEndOf="@id/FramEditTextID"
-            android:layout_marginEnd="6dp"/>
 
     </RelativeLayout>
 

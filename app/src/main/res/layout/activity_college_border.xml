@@ -107,9 +107,11 @@
                             android:layout_weight="100"
                             android:text="subject's"
                             android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
                             android:textAlignment="center"/>
                         <View
-                            android:layout_width="3dp"
+                            android:layout_width="2dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:background="@color/borderColor"/>
@@ -118,6 +120,8 @@
                             android:layout_height="match_parent"
                             android:layout_weight="220"
                             android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
                             android:text="C.H"/>
 
 
@@ -125,13 +129,59 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/borderColor"/>
+
+                    <ScrollView
+                        android:layout_weight="100"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fillViewport="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="100"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
+
+ <!--================== Adding here the Subject's =================-->
+                        <!--Copy the below code -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="100"
+                                android:text="the first subject"
+                                android:gravity="center"
+                                android:textAlignment="center"/>
+                            <View
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/borderColor"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="220"
+                                android:gravity="center"
+                                android:text="the first C.H"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/borderColor"/>
+
+<!--====================== Stop here End of one row of subject code ===============-->
+
 
                     </LinearLayout>
+                    </ScrollView>
                 </LinearLayout>
-
 
 
             <!--نهايه القسم الايسر-->
@@ -146,13 +196,77 @@
             android:layout_weight="100">
 
             <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/background_white_table"
                 android:layout_margin="0.9dp" >
 
 
-                <!--Write here-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="700"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="100"
+                        android:text="Mark"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:orientation="horizontal"
+                    android:background="@color/borderColor"/>
+
+                <ScrollView
+                    android:layout_weight="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="100"
+                    android:orientation="vertical">
+
+                    <!--============= Start of row of marks =================-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="100"
+                            android:text="first mark"
+                            android:gravity="center"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:orientation="horizontal"
+                        android:background="@color/borderColor"/>
+<!--============= End of row of marks =================-->
+
+                </LinearLayout>
+                </ScrollView>
 
             </LinearLayout>
 
