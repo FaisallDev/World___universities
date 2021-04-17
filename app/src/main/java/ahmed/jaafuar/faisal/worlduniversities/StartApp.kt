@@ -22,7 +22,8 @@ class StartApp : AppCompatActivity() {
         }//End time_table(BTN)
 
         Faculty_Border.setOnClickListener{
-            Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this,college_border::class.java)
+            startActivity(intent)
         }//End Faculty_BorderButton
 
         UNi_news.setOnClickListener{
