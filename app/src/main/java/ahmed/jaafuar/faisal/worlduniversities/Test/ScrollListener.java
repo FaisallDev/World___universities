@@ -1,4 +1,4 @@
-package ahmed.jaafuar.faisal.worlduniversities;
+package ahmed.jaafuar.faisal.worlduniversities.Test;
 
 import android.view.View;
 import android.widget.HorizontalScrollView;

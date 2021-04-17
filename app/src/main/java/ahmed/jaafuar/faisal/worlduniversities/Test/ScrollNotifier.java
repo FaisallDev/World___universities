@@ -1,7 +1,4 @@
-package ahmed.jaafuar.faisal.worlduniversities;
-
-import android.content.Context;
-import android.widget.ScrollView;
+package ahmed.jaafuar.faisal.worlduniversities.Test;
 
 public interface ScrollNotifier {
     public void setScrollListener(ScrollListener scrollListener);

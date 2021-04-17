@@ -1,6 +1,7 @@
 package ahmed.jaafuar.faisal.worlduniversities
 
-import android.R
+import ahmed.jaafuar.faisal.worlduniversities.Test.ScrollManager
+import ahmed.jaafuar.faisal.worlduniversities.Test.ScrollNotifier
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -13,22 +14,4 @@ class college_border : AppCompatActivity() {
 
     }//End onCreate()
 
-    private fun setupScrolling() {
-        var view: ScrollNotifier
-        val scrollManager = ScrollManager()
-
-        // timeline horizontal scroller
-        view = findViewById<View>(R.id.college) as ScrollNotifier
-        scrollManager.addScrollClient(view)
-
-        // services vertical scroller
-        view = findViewById<View>(R.id.college) as ScrollNotifier
-        scrollManager.addScrollClient(view)
-
-        // content area scrollers
-        view = findViewById<View>(R.id.college) as ScrollNotifier
-        scrollManager.addScrollClient(view)
-        view = findViewById<View>(R.id.college) as ScrollNotifier
-        scrollManager.addScrollClient(view)
-    }
 }//End Class

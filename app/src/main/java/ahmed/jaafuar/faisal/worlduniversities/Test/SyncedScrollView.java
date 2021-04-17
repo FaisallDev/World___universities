@@ -1,7 +1,10 @@
-package ahmed.jaafuar.faisal.worlduniversities;
+package ahmed.jaafuar.faisal.worlduniversities.Test;
 
 import android.content.Context;
 import android.widget.ScrollView;
+
+import ahmed.jaafuar.faisal.worlduniversities.Test.ScrollListener;
+import ahmed.jaafuar.faisal.worlduniversities.Test.ScrollNotifier;
 
 public class SyncedScrollView extends ScrollView implements ScrollNotifier {
 
